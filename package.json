@@ -5,7 +5,6 @@
   "version": "0.3.2",
   "repository": {
     "type": "git",
-    "url": "http://github.com/CodeNow/api.git"
   },
   "private": true,
   "dependencies": {
@@ -69,31 +68,12 @@
     "request": "2.42.0",
     "rimraf": "^2.2.8",
     "rollbar": "^0.3.13",
-    "runnable": "git+ssh://git@github.com:CodeNow/runnable-api-client#v0.38.2",
     "s3-stream-upload": "0.0.6",
     "simple-api-client": "^0.5.9",
     "substream": "0.1.1",
     "uuid": "~1.4.1",
     "ws": "^0.4.31",
     "xtend": "3.0.0"
-  },
-  "devDependencies": {
-    "Filibuster": "git://github.com/Runnable/Filibuster.git#v0.1.4",
-    "console-trace": "git://github.com/numbcoder/console-trace.git",
-    "docker-mock": "git://github.com/Runnable/docker-mock.git#v0.5.2",
-    "faker": "^1.0.0",
-    "form-data": "^0.1.4",
-    "function-proxy": "^0.5.1",
-    "jsdoc": "^3.2.2",
-    "jshint": "^2.5.5",
-    "krain": "git+ssh://git@github.com:CodeNow/krain.git#v0.0.9",
-    "lab": "^3.2.1",
-    "mavis": "git+ssh://git@github.com:CodeNow/mavis#v0.0.3",
-    "multiline": "^0.3.4",
-    "nock": "^0.48.0",
-    "nodemon": "^1.2.1",
-    "require-inject": "^1.1.0",
-    "sauron": "git+ssh://git@github.com:codenow/sauron#v0.0.6"
   },
   "engine": "node >= 0.10.5",
   "scripts": {
